@@ -1,1 +1,1 @@
-## DevOpsPorto Solution Project
+## DevOpsPorto Sol Project
