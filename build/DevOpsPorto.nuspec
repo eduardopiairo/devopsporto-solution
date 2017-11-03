@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>DevOpsPorto</id>
+    <version>$version$</version>
+    <authors>EduardoPiairo</authors>
+    <owners>EduardoPiairo</owners>
+    <licenseUrl>http://www.eduardopiairo.com/</licenseUrl>
+    <projectUrl>http://www.eduardopiairo.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DevOpsPorto</description>
+    <releaseNotes />
+  </metadata> 
+</package>
