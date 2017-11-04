@@ -11,11 +11,11 @@ namespace DevOpsPorto.Controllers
 {
     [Route("api/[controller]")]
     [Produces("application/json")]
-    public class MemberController
+    public class MembersController
     {
         private readonly IMemberRepository _repository;
 
-        public MemberController(IMemberRepository repository)
+        public MembersController(IMemberRepository repository)
         {
             if (repository == null)
                 throw new ArgumentNullException(nameof(repository));
