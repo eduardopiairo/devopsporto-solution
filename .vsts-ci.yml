@@ -1,0 +1,23 @@
+# YAML build definition for this app
+# This file is needed only when you want to model your build definitions using YAML
+#steps:
+#- script: |
+#    dotnet restore
+#    dotnet build
+#    dotnet test dotnetcore-tests/dotnetcore-tests.csproj
+#    dotnet publish -o $(Build.ArtifactStagingDirectory)
+#- task: archiveFiles@1
+#  inputs:
+#    rootFolder: $(Build.ArtifactStagingDirectory)
+#    archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+
+#- task: publishBuildArtifacts@1
+#  inputs:
+#    PathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+#    ArtifactName: drop
+#    ArtifactType: Container
+
+
+steps:
+- powershell: Write-Host "Hello from PowerShell v$($PSVersionTable.PSVersion.Major)"
+  displayName: Simple script
