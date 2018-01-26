@@ -2,4 +2,7 @@
 
 ---
 
-# About me 
+# About me
+
+## Delivering changes for databases and applications
+  
