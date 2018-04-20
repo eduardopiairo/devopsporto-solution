@@ -8,7 +8,7 @@
     },
 
     "databaseName": {
-      "value": "devopsporto-solution-db"
+      "value": "DevOpsPorto-Solution-Db"
     },
 
     "sqlserverName": {
